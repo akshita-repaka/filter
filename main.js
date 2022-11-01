@@ -22,8 +22,8 @@ function gotPoses(results)
   if(results.length > 0)
   {
     console.log(results);
-    console.log("lips x = " + results[0].pose.nose.x);
-    console.log("lips y = " + results[0].pose.nose.y);
+    console.log("nose x = " + results[0].pose.nose.x);
+    console.log("nose y = " + results[0].pose.nose.y);
   }
 }
 
